@@ -1,0 +1,108 @@
+/* Общие стили */
+.homeContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Стили для хедера */
+.header {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Стили для навигационного меню */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Стили для основного блока */
+.main {
+  padding: 20px;
+}
+
+/* Стили для секции с героем */
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heroContent {
+  margin-bottom: 20px;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* Стили для кнопки */
+.ctaButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Стили для секции с выделенными товарами */
+.featuredSection {
+  margin-bottom: 40px;
+}
+
+/* Стили для секции с подпиской на рассылку */
+.newsletterSection {
+  margin-bottom: 40px;
+}
+
+/* Стили для подвала */
+.footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Адаптивность для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .heroImage {
+    max-width: 300px;
+  }
+
+  .ctaButton {
+    font-size: 14px;
+  }
+
+  .featuredSection {
+    margin-bottom: 20px;
+  }
+
+  .newsletterSection {
+    margin-bottom: 20px;
+  }
+}
+
+/* Адаптивность для планшетов */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .heroImage {
+    max-width: 400px;
+  }
+
+  .ctaButton {
+    font-size: 16px;
+  }
+
+  .featuredSection {
+    margin-bottom: 30px;
+  }
+
+  .newsletterSection {
+    margin-bottom: 30px;
+  }
+}
